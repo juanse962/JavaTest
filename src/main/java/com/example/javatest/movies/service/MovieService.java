@@ -28,6 +28,5 @@ public class MovieService {
                 .filter(movie -> movie.getMinutes() <= length).collect(Collectors.toList());
 
     }
-    
 
 }
